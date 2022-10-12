@@ -1,0 +1,373 @@
+/* ..................////////////////////////// Slider Css \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\....................... */
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* ..................////////////////////////// Header Css \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\....................... */
+
+* {
+  font-family: Josefin Slab;
+}
+
+.menu-col {
+  justify-content: space-between;
+  display: flex;
+}
+
+.logo-img {
+  height: 50px;
+  width: 100px;
+}
+
+.menu-name {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.menu-name li {
+  margin: 0px 30px;
+  text-decoration: none;
+}
+
+.menu-icons {
+  list-style: none;
+  display: flex;
+}
+
+.menu-icons li {
+  margin: 0px 10px;
+  font-size: 20px;
+}
+
+/* ..................////////////////////////// Slider Css \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\....................... */
+
+.slider-content li img {
+  list-style: none;
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.slider-image {
+  list-style: none;
+}
+
+/* ..................////////////////////////// Banner Css \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\....................... */
+
+.fullscreen-video-wrap video {
+  margin-top: 50px;
+  /* z-index: -1; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.banner-img img {
+  height: 550px;
+  width: 100%;
+  object-fit: cover;
+  /* margin: 40px 0px; */
+}
+
+.banner-img h1 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 800;
+}
+
+/* ..................////////////////////////// Product Card \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\....................... */
+
+.product-card-title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.product-image {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.product-image li img {
+  height: 350px;
+  width: 300px;
+  object-fit: cover;
+  margin: 50px 0px 30px 0px;
+}
+
+.product-image li {
+  text-align: center;
+}
+
+.product-price {
+  color: #4bafa2;
+  font-weight: 700;
+}
+
+.cart-button {
+  background-color: #4bad91;
+  border-radius: 0px;
+  height: 40px;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+}
+
+.all-product-button {
+  margin-top: 40px;
+  width: auto;
+  background-color: #4bad91;
+  height: 45px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 40px;
+  border: none;
+  text-align: center;
+}
+
+/* ..................////////////////////////// Reviews \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\....................... */
+
+.reviews {
+  height: 500px;
+  width: 100%;
+  background-color: #4bad91;
+  padding: 30px 0px 10px 10px;
+  margin-bottom: 50px;
+}
+
+.review-topic {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: Josefin Slab;
+}
+
+.rev-card {
+  height: 300px;
+  width: 550px;
+}
+
+.ratings {
+  color: #ebcb60;
+  margin-bottom: 20px;
+}
+
+.rev-arrow-icon {
+  text-align: center;
+  color: #fff;
+  margin: 30px 0px;
+  font-size: x-large;
+}
+
+.rev-left-arrow {
+  margin: 0px 30px;
+}
+
+/* ..................////////////////////////// Reviews Css \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\....................... */
+
+.search {
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.searchbox {
+  width: 700px;
+  height: 50px;
+}
+
+/* ..................////////////////////////// Sign In Css \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\....................... */
+
+.Account {
+  padding: 50px 400px;
+  text-align: center;
+}
+
+.account-cont {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.account-title h1 {
+  font-size: xx-large;
+  font-style: oblique;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.account-login {
+  font-size: xx-large;
+  font-style: oblique;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.forgot {
+  text-align: left;
+}
+
+.login-button {
+  width: -webkit-fill-available;
+  background-color: blue;
+  color: #fff;
+  height: 40px;
+}
+
+/* ..................////////////////////////// Tracking Css \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\....................... */
+
+.tract-order {
+  padding: 50px 400px;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+}
+
+.track-title h3 {
+  font-size: xx-large;
+  font-style: oblique;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.track-box {
+  height: 400px;
+  text-align: center;
+}
+.track-text {
+  color: black;
+  font-size: medium;
+  font-weight: 400;
+}
+
+.track-card-title {
+  font-weight: 400;
+}
+
+.form {
+  margin: 20px 15px;
+}
+
+.track-button {
+  margin-top: 20px;
+}
+
+.btn.btn-primary {
+  width: 150px;
+}
+
+/* ..................////////////////////////// Single Product Css \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\....................... */
+
+.single-product-img img {
+  width: 100%;
+  object-fit: initial;
+}
+
+.rev-count {
+  color: #000;
+  margin-left: 10px;
+}
+
+.product-count-button {
+  background-color: #4bad91;
+  color: #fff;
+  list-style: none;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  width: 100px;
+  margin-right: 30px;
+}
+
+.product-spec {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+}
+
+/* ..................////////////////////////// Single Product Css \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\....................... */
+
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  position: sticky;
+  padding: 20px;
+  background-color: #ebcb60;
+  font-weight: 700;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.review-button {
+  background-color: #4bad91;
+  border-radius: 5px;
+  height: 40px;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  width: auto;
+  margin-left: 10px;
+}
+
+.single-product-img img {
+  height: 600px;
+  object-fit: cover;
+}
+
+.product-price {
+  margin-left: 10px;
+}
+
+.prod-spec-img {
+  width: -webkit-fill-available;
+}
+
+/* ..................////////////////////////// Shopping Cart Css \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\....................... */
+
+.cart-inside-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cart-img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+  margin-right: 30px;
+}
+
+.cart-checkout-button {
+  background-color: #4bad91;
+  color: #fff;
+  height: 40px;
+  font-weight: 600;
+  border: none;
+  width: 300px;
+}
+
+/* ..................////////////////////////// Contact Information Css \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\....................... */
+.cart-checkout {
+  padding: 80px;
+  background-color: aliceblue;
+}
+.cart-checkout img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+}
